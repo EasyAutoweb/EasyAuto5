@@ -18,7 +18,7 @@ Easy.Auto é um site que conecta clientes de oficinas mecânicas e lojas de vend
 - Gustavo Alberto Amabile Alves
 - Guilherme Basilio da Silva
 - Willian Vitor Alves
-- Matheus Felipe Rodrigues
+- Matheus Felipe de Oliveira Rodrigues
 
 ## Documentos
 
