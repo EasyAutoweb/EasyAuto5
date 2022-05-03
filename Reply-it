@@ -1,0 +1,66 @@
+const express = require('express')
+const app = express()
+
+
+app.use(express.json())
+
+const cadastrodecuponsRepository = require('./infra/mongoDB/CadastrodeCuponsRepository')
+
+app.get('/', async function (req, res){
+ const cadastrodecupons = await cadastrodecuponsRepository.buscarTodos()
+  res.json(cadastrodecupons)
+})
+
+app.post('/', async function (req, res){
+  const cadastrodecupon = req.body
+
+  const novocadastrodecupons = await cadastrodecuponsRepository.inserir(cadastrodecupon)
+
+  res.json({
+    mensagem: 'Cupom cadastrado com sucesso!',
+    novocadastrodecupons
+  })
+})
+
+                                                                        
+app.put('/', function (req, res){
+  res.send('Este é um PUT em /')
+})
+
+app.delete('/:id',async function (req, res){
+  const id = req.params.id
+ 
+    try {
+        const cadastrodecupon = await cadastrodecuponsRepository.excluir(id)
+      
+        res.json({
+          mensagem: 'Cupom excluido com sucesso',
+          cadastrodecupon
+        })  
+      }catch(err) {
+        res.status(404).json({
+          mensagem: 'Cupom não encontrado'
+        })
+      }
+  
+})
+
+
+ 
+                                                                
+
+app.listen(3000)
+
+
+/*
+  GET
+  POST
+  PUT
+  DELETE
+*/
+
+/*
+  JSON - JavaScript Object Notation
+  XML
+  YAML
+  */
