@@ -1,4 +1,4 @@
-Execute o comando no terminal para inicializar o projeto:   dotnet run
+Entre no diretório assianturas e execute o comando no terminal para inicializar o projeto:   dotnet run
  </br> </br>
 Caso tenha problemas verifique se o .NET Core SDK está instalado: https://code.visualstudio.com/docs/languages/dotnet
 </br> </br>
