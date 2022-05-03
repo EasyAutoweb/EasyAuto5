@@ -14,10 +14,11 @@ Easy.Auto é um site que conecta clientes de oficinas mecânicas e lojas de vend
 
 ## Alunos
 
-- Alexandre Batista Amormino
-- Ana Paula Scalabrini
-- Gustavo Alberto Amabile Alves
-- Guilherme Basilio da Silva
+Ana Paula Scalabrini
+Gustavo Alberto Amabile Alves
+Guilherme Basilio da Silva
+Willian Vitor Alves
+Matheus Felipe Rodrigues
 
 ## Documentos
 
