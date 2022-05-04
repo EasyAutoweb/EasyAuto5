@@ -35,6 +35,6 @@ https://replit.com/@EasyAuto/api-faleconosco
 ## Observações
 
     - O projeto foi desenvolvido em Java Script
-    - Banco de Dados utilizado: MongoDB Cloud
+    - Banco de Dados utilizado: MongoDB
     - Testes realizados utilizando o Postman e o Site Ethereal Email
     - Bibliotecas utilizadas: mongoose, express e nodemailer
