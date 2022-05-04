@@ -811,11 +811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto\\Assinaturas\\Assinaturas.csproj",
+      "projectUniqueName": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto5-Assinaturas\\Assinaturas\\Assinaturas.csproj",
       "projectName": "Assinaturas",
-      "projectPath": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto\\Assinaturas\\Assinaturas.csproj",
+      "projectPath": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto5-Assinaturas\\Assinaturas\\Assinaturas.csproj",
       "packagesPath": "C:\\Users\\jh6275\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto\\Assinaturas\\obj\\",
+      "outputPath": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto5-Assinaturas\\Assinaturas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jh6275\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -4,6 +4,7 @@ using System.Linq;
 using Assinaturas.Context;
 using Assinaturas.Entities;
 using Assinaturas.Repository.Interface;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Assinaturas.Repository
@@ -22,7 +23,7 @@ namespace Assinaturas.Repository
             dbContext.Assinaturas.ReplaceOne(x => x.Id == assinatura.Id, assinatura);
         }
 
-        public Assinatura BuscarAssinatura(int id)
+        public Assinatura BuscarAssinatura(string id)
         {
             return dbContext.Assinaturas.Find(x => x.Id == id).FirstOrDefault();
         }
@@ -32,7 +33,7 @@ namespace Assinaturas.Repository
             return dbContext.Assinaturas.Find(x => true).ToList();
         }
 
-        public void RemoverAssinatura(int id)
+        public void RemoverAssinatura(string id)
         {
             dbContext.Assinaturas.DeleteOne(x => x.Id == id);
         }

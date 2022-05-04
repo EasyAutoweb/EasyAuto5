@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CJ4RSi5U7Tvg60buURGXptT7+/Z0vmaPdL73f83fMaQFFZ2d0XDJqnI3EH0G2T4Z5CSPbSvmjWH1990WcCH5lg==",
+  "dgSpecHash": "AJSkas02JilsOjp9lzdMaDUsKWhoH+2dr5VW3u6iicOgVI631IYC1jwOSrKFZO42nyJSOZ7wnzbNEurhwNQv8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto\\Assinaturas\\Assinaturas.csproj",
+  "projectFilePath": "C:\\Users\\jh6275\\OneDrive - ENGIE\\Área de Trabalho\\EasyAuto5-Assinaturas\\Assinaturas\\Assinaturas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jh6275\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\jh6275\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

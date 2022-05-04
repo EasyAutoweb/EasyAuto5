@@ -1,15 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson.Serialization.IdGenerators;
 
 namespace Assinaturas.Entities
 {
     public class Assinatura
     {
-        public int Id { get; set; }
-        public int IdUsuario { get; set; }
-        public int IdAssinaturaTipo { get; set; }
+        [BsonId(IdGenerator = typeof(StringObjectIdGenerator))]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
+
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string UsuarioId { get; set; }
+
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string AssinaturaTipoId { get; set; }
         public decimal Valor { get; set; }
         public string Nome { get; set; }
     }

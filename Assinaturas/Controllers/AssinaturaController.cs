@@ -1,4 +1,5 @@
-﻿using Assinaturas.Entities;
+﻿using System;
+using Assinaturas.Entities;
 using Assinaturas.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,7 +25,7 @@ namespace Assinaturas.Controllers
 
         // GET api/<AssinaturaController>/5
         [HttpGet("{id}")]
-        public IActionResult Buscar(int id)
+        public IActionResult Buscar(string id)
         {
             var assinatura = _assinaturaService.BuscarAssinatura(id);
 
@@ -43,7 +44,7 @@ namespace Assinaturas.Controllers
         }
 
         // PUT api/<AssinaturaController>/5
-        [HttpPut("{id}")]
+        [HttpPut]
         public IActionResult Atualizar(Assinatura assinatura)
         {
             _assinaturaService.AtualizarAssinatura(assinatura);
@@ -53,7 +54,7 @@ namespace Assinaturas.Controllers
 
         // DELETE api/<AssinaturaController>/5
         [HttpDelete("{id}")]
-        public IActionResult Remover(int id)
+        public IActionResult Remover(string id)
         {
             _assinaturaService.RemoverAssinatura(id);
 

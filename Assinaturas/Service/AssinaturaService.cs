@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Assinaturas.Entities;
 using Assinaturas.Repository.Interface;
 using Assinaturas.Service.Interface;
+using MongoDB.Bson;
 
 namespace Assinaturas.Service
 {
@@ -27,7 +28,7 @@ namespace Assinaturas.Service
             _assinaturaRepository.AtualizarAssinatura(assinatura);
         }
 
-        public Assinatura BuscarAssinatura(int id)
+        public Assinatura BuscarAssinatura(string id)
         {
             return _assinaturaRepository.BuscarAssinatura(id);
         }
@@ -37,7 +38,7 @@ namespace Assinaturas.Service
             return _assinaturaRepository.BuscarTodasAssinaturas();
         }
 
-        public void RemoverAssinatura(int id)
+        public void RemoverAssinatura(string id)
         {
             _assinaturaRepository.RemoverAssinatura(id);
         }
